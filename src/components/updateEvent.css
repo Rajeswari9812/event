@@ -1,0 +1,52 @@
+/* UpdateEvent.css */
+.update-event{
+    background-image: url(../images/18008.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  .update-event-container {
+    background-color: white;
+    max-width: 400px;
+    margin:auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-event-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .update-event-label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .update-event-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-event-button {
+    background-color: #FF8989;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .update-event-button:hover {
+    background-color: #f66868;
+  }
+  

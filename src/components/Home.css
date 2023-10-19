@@ -1,0 +1,27 @@
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/loginbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color:bisque;
+  }
+  

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.page-container {
+    background-image: url('../images/18008.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    max-height: 500px;
+    padding: 65px;
+    background-color:rgba(240, 240, 240, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container-wrapper {
+    background-color: #e9e9e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    margin: 20px;
+    background-color:rgba(240, 240, 240, 0.4);
+  }
+  
+  .login-container label,
+  .login-container input,
+  .login-container button {
+    margin-bottom: 10px;
+  }
+  
+  .login-container button {
+    padding: 40px;
+  } 
+  
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  .login-form button {
+    padding:10px 40px 10px 40px;
+    background-color: #FF8989;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  
+  .login-form button:hover {
+    background-color: #f66868;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .login-container {
+      max-width: 300px;
+    }
+  }
+  

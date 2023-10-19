@@ -1,0 +1,31 @@
+.dept-container{
+    background-image: url('../images/18008.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.dept-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.dept-card{
+    position: relative;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin:10px auto;
+    border: 2px solid black;
+}
+
+.cancel-button-dept{
+    position: absolute;
+    bottom: 10px;
+    left:370px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(26, 186, 183);
+    color: white;
+    font-weight: bolder;
+}

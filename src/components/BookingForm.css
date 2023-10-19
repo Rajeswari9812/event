@@ -1,0 +1,87 @@
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+   .main{
+    background-image: url('../images/18008.jpg');
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+   }
+
+  .form-button {
+    background-color: #FF8989;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .form-button:hover {
+    background-color:#f66868; 
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .heading{
+    margin: 20px;
+    margin-bottom: 3%;
+    border: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    max-height: 600px;
+    margin: 20px auto;
+    padding: 40px; 
+    background: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="password"],
+  select {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: cursive;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .admin-login-text {
+    text-align: center;
+  }  
+
+  @media (max-width: 600px) {
+    form {
+      max-width: 300px;
+    }
+  }
+  
